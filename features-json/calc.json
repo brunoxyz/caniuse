@@ -29,6 +29,9 @@
     },
     {
       "description":"Safari & iOS Safari (both 6 and 7) does not support viewport units (`vw`, `vh`, etc) in `calc()`."
+    },
+    {
+      "description":"iOS Safari 6 crashes when the same property that uses calc() is also being assigned a transition."
     }
   ],
   "categories":[
